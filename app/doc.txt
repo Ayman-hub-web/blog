@@ -1,4 +1,4 @@
-https://www.youtube.com/watch?v=DQNSS2bt_UI&list=PLgnySyq8qZmqGYynebKjCAntnjl8L3JEB&index=6 
+  ^^^^^^1https://www.youtube.com/watch?v=DQNSS2bt_UI&list=PLgnySyq8qZmqGYynebKjCAntnjl8L3JEB&index=6 
 
 - Ich habe hier nicht die defailt bootstrap und JQuery und JS benutzt. Ich habe hier diese als files in public 
   gespeichert. Deswegen musste ich die Datei AppServiceProvider erweitern wie es hier zu sehen ist.
@@ -10,3 +10,7 @@ https://www.youtube.com/watch?v=DQNSS2bt_UI&list=PLgnySyq8qZmqGYynebKjCAntnjl8L3
 - Man barcht hier zu zählen, wieviele User sich ein Post besucht. Dazu fügen wir eine Spalte in Posts table
 - Eine neue Spalte heisst votes können wie wie folgt einfühen:
   php artisan make:mogration add_votes_to_posts und dann nennen wir eine Spalte namens views 
+
+- Ich habe das Projekt in front- und backEnd geteilt. Im backEnd sind alle Models und Controller  die Man
+  dazu benutzt. Unter anderem gibt es Setting in der die Einstellung für verschiedene Sachen im frontEnd.
+- Github unter folgender Adresse: https://github.com/codeartisanlab/Laravel-8-blog-website
