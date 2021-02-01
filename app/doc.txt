@@ -1,0 +1,12 @@
+https://www.youtube.com/watch?v=DQNSS2bt_UI&list=PLgnySyq8qZmqGYynebKjCAntnjl8L3JEB&index=6 
+
+- Ich habe hier nicht die defailt bootstrap und JQuery und JS benutzt. Ich habe hier diese als files in public 
+  gespeichert. Deswegen musste ich die Datei AppServiceProvider erweitern wie es hier zu sehen ist.
+- Für die Erstellung der Funktionalitäten für login und register werden deshalb folgende Befehle benutzt,
+  zuerst: composer require laravel/ui 
+  dann: php artisan ui bootstrap --auth 
+  So werden all templates und Funktionalitäten erstellt.
+
+- Man barcht hier zu zählen, wieviele User sich ein Post besucht. Dazu fügen wir eine Spalte in Posts table
+- Eine neue Spalte heisst votes können wie wie folgt einfühen:
+  php artisan make:mogration add_votes_to_posts und dann nennen wir eine Spalte namens views 
